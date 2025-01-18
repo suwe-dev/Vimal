@@ -1,0 +1,12 @@
+
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-white;
+}
+
+a {
+  @apply text-stone-600 dark:text-white;
+}
