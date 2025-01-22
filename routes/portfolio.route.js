@@ -7,6 +7,6 @@ const router = express.Router();
 router.post('/',createNewDetails);
 
 //Get All Records
-router.get('/',getAllRecords)
+router.get('/vimal',getAllRecords)
 
 export default router;

@@ -5,7 +5,7 @@ import ConnectDB from "./config/db.js";
 const app = express();
 const port = 2003;
 
-ConnectDB()
+// ConnectDB()
 
 app.use(express.json());
 app.use(express.urlencoded({extended : true}));
